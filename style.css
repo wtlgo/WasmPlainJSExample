@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+button {
+  background-color: lightblue;
+  border-width: 1px;
+  border-color: blue;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+  border-color: lightblue;
+  color: white;
+}
